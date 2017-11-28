@@ -151,16 +151,16 @@ public class Notes : MonoBehaviour
         if (type == MusicType.ATTRACT)
         {
             type = MusicType.AWAY;
-            SetNote();
+            SetNotesMaterial();
         }
         else if (type == MusicType.AWAY)
         {
             type = MusicType.ATTRACT;
-            SetNote();
+            SetNotesMaterial();
         }
     }
 
-    public void SetNote()
+    public void SetNotesMaterial()
     {
         if(type == MusicType.ATTRACT)
         {

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: bd4e8e161b2f067419a88284c09f459c
-timeCreated: 1509082622
+timeCreated: 1511834211
 licenseType: Pro
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - music: {instanceID: 0}
+  - attractMusic: {fileID: 11400000, guid: 855c1fc9108330846b2f72f459158419, type: 2}
+  - awayMusic: {fileID: 11400000, guid: 855c1fc9108330846b2f72f459158419, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
